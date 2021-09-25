@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "target": "es6",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "paths": {
+      "~*": ["../*"]
+    },
+  },
+  "include": ["src/**/*"]
+}

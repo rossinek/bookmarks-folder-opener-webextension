@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Shark Bookmarks Folder Opener",
+  "version": "1.0",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "shark-bookmarks-folder-opener@arturrosa.pl",
+      "strict_min_version": "59.0a1"
+    }
+  },
+
+  "description": "Open all bookmarks from a given folder in new window with just two click.",
+  "icons": {
+    "48": "icons/star-48.png",
+    "128": "icons/star-128.png"
+  },
+  "permissions": [
+    "storage",
+    "bookmarks"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/star-48.png"
+    },
+    "default_title": "Shark Opener",
+    "default_popup": "dist/popup/index.html"
+  }
+}
