@@ -8,6 +8,8 @@ Open all bookmarks from a given folder in new window with just two click.
 
 Extension was tested on Mozilla Firefox 92.
 
+- [Mozilla Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/shark-bookmarks-folder-opener/)
+
 ## Setup
 
 Technologies:
